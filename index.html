@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- * header -->
+    <header class="header">
+    <div class="logo">
+      <span>Pixel</span> Gallery
+    </div>
+
+    <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">
+      🌙
+    </button>
+  </header>
+  <!--* hero section -->
+
+  <main class="container">
+    <section class="hero">
+      <p class="subtitle">EXPLORE THE WORLD</p>
+      <h1>Discover Beautiful Images</h1>
+      <p class="description">
+        A collection of inspiring moments, places, and photography.
+      </p>
+    </section>
+    <!-- * gallery section -->
+
+    <section class="gallery-section">
+      <div class="gallery-toolbar">
+        <h2>Explore Gallery</h2>
+
+        <div id="filterButtons" class="filter-buttons">
+          <button class="filter-btn active" data-category="All">
+            All
+          </button>
+          <button class="filter-btn" data-category="Nature">
+            Nature
+          </button>
+          <button class="filter-btn" data-category="Architecture">
+            Architecture
+          </button>
+          <button class="filter-btn" data-category="Animals">
+            Animals
+          </button>
+          <button class="filter-btn" data-category="Technology">
+            Technology
+          </button>
+        </div>
+      </div>
+      <!-- * image grid -->
+      
+      <div id="imageGrid" class="image-grid">
+        <!-- JavaScript will render image cards here -->
+      </div>
+      <!-- * pagination  -->
+
+      <div id="pagination" class="pagination">
+        <!-- JavaScript will render pagination here -->
+      </div>
+    </section>
+  </main>
+<!-- footer -->
+  <footer class="footer">
+    <p>Pixel Gallery · Built with HTML, CSS & JavaScript</p>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
